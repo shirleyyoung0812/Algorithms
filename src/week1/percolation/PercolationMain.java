@@ -5,6 +5,10 @@ package week1.percolation;
  */
 public class PercolationMain {
 
+    /**
+     * Main function.
+     * @param args: input arguments.
+     */
     public static void main(String args[]) {
         PercolationStats stats = new PercolationStats(100, 100);
         System.out.println(stats.mean());
